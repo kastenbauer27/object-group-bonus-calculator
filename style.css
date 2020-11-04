@@ -1,0 +1,33 @@
+body {
+    background-color: aqua;
+    font-family: 'Russo One', sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+#bonusButton{
+
+    max-width: 25vw;
+    font-size: 2.5rem;
+    font-family: 'Russo One', sans-serif;
+    border-radius: 29px;
+    background-color: red;
+}
+
+#hideBonus{
+    max-width: 25vw;
+    font-size: 2.5rem;
+    font-family: 'Russo One', sans-serif;
+    border-radius: 29px;
+    background-color: red;
+}
+
+#employeeBonus{
+    font-size: 1.5rem;
+}

@@ -94,6 +94,7 @@ function employeeIncome(employee){
 
 function clickButton() {
   console.log('click works!');
+  $( '#employeeBonus' ).empty();
   employeeSalaryCalc(employees);
 }
 
@@ -116,7 +117,7 @@ function employeeSalaryCalc( array ){
     </li>`
     );
   }
-  $( '#employeeBonus' ).append(`<button id="hideBonus">Hide Bonuses</button>`);
+  $( '#employeeBonus' ).append(`<button id="hideBonus">Remove Incentive</button>`);
 }
 
 
